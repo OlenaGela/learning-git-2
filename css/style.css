@@ -1,11 +1,16 @@
+/* GLOBAL */
+
 *, *::before, *::after {
   box-sizing: border-box; }
+
+
 
 /* BODY */
 
 .container {
-    margin: auto;
+    margin: 0;
     padding: 30px 100px;
+    background: #fdcb6e;
   }
 
 header {
@@ -27,9 +32,10 @@ h2 {
 .song-text {
   font-size: 16px;
   font-family: "Quattrocento Sans", sans-serif;
-  color: #2d3436;
+  text-transform: uppercase;
+  color: #fff;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff00de, 0 0 70px #ff00de, 0 0 80px #ff00de, 0 0 100px #ff00de, 0 0 150px #ff00de;
 }
-
 /* FOOTER */
 
 h5 {
